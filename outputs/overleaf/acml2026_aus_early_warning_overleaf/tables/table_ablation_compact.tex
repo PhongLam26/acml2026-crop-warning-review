@@ -1,0 +1,13 @@
+\begin{tabular}{lllll}
+\toprule
+Feature set & Weather & Soil & Yield hist. & Interpretation \\
+\midrule
+Identity/time only & No & No & No & Crop-region persistence benchmark \\
+Weather & Yes & No & No & Stage-weather signal only \\
+Weather+Dev & Yes & No & No & Adds train-derived anomaly features \\
+Weather+Soil & Yes & Yes & No & Adds static regional vulnerability \\
+No-yield-history weather-soil & Yes & Yes & No & Main information-isolation regime \\
+Yield history & No & No & Yes & Persistent productivity memory \\
+Operational with yield history & Yes & Yes & Yes & Main deployment-oriented regime \\
+\bottomrule
+\end{tabular}
